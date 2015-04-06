@@ -1,0 +1,6 @@
+-name ${RELNAME}
+
+-setcookie go2_cookie
+
++K true
++A30

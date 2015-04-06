@@ -1,0 +1,14 @@
+{application, go2,
+ [{description, "An OTP application"}
+ ,{vsn, "0.1.0"}
+ ,{registered, []}
+ ,{mod, {'go2_app', []}}
+ ,{applications,
+   [kernel
+   ,stdlib
+   ,enacl
+   ,ranch
+   ]}
+ ,{env,[]}
+ ,{modules, []}
+ ]}.
